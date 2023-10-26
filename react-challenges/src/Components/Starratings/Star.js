@@ -12,6 +12,7 @@ function Star() {
           <>
             <label>
               <input
+                key={idx}
                 type="radio"
                 name="rate"
                 value={currentRate}
