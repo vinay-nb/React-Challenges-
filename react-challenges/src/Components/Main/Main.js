@@ -7,6 +7,7 @@ function Main() {
       <div className="card">
         <Link to="/star-rating" className="link-cls">Star rating </Link>
         <Link to="/image-gallery" className="link-cls">Image Gallery </Link>
+        <Link to="/accordion" className="link-cls">Accordion </Link>
       </div>
     </div>
   );
