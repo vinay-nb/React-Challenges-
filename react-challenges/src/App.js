@@ -1,5 +1,6 @@
 import "./App.css";
 import AppAccordion from "./Components/Accordion/AppAccordion";
+import BackgroundChanger from "./Components/BackgroundChanger/BackgroundChanger";
 import ImageGallery from "./Components/ImageGallery/ImageGallery";
 import Main from "./Components/Main/Main";
 import Star from "./Components/Starratings/Star";
@@ -13,6 +14,7 @@ function App() {
         <Route path="/star-rating" element={<Star />} />
         <Route path="/image-gallery" element={<ImageGallery />} />
         <Route path="/accordion" element={<AppAccordion />} />
+        <Route path="/background-changer" element={<BackgroundChanger />} />
       </Routes>
     </div>
   );
