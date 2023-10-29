@@ -17,6 +17,9 @@ function Main() {
         <Link to="/background-changer" className="link-cls">
           Background Changer{" "}
         </Link>
+        <Link to="/change-theme" className="link-cls">
+          Change Theme{" "}
+        </Link>
       </div>
     </div>
   );
