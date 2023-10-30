@@ -20,6 +20,9 @@ function Main() {
         <Link to="/change-theme" className="link-cls">
           Change Theme{" "}
         </Link>
+        <Link to="/qr-generator" className="link-cls">
+          QR Generator
+        </Link>
       </div>
     </div>
   );
