@@ -1,0 +1,53 @@
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 200px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.container {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.containerColor {
+    width: 30%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border: 1px solid #fff;
+}
+
+.numberInput {
+    height: 25px;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+input {
+    cursor: pointer;
+}

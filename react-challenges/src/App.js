@@ -7,6 +7,7 @@ import Main from "./Components/Main/Main";
 import QRGenerator from "./Components/QRGenerator/QRGenerator";
 import Star from "./Components/Starratings/Star";
 import { Route, Routes } from "react-router-dom";
+import TableColorizer from "./Components/TableColorizer/TableColorizer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/background-changer" element={<BackgroundChanger />} />
         <Route path="/change-theme" element={<ChangeTheme />} />
         <Route path="/qr-generator" element={<QRGenerator />} />
+        <Route path="/table-colorizer" element={<TableColorizer />} />
       </Routes>
     </div>
   );

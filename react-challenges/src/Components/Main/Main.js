@@ -23,6 +23,9 @@ function Main() {
         <Link to="/qr-generator" className="link-cls">
           QR Generator
         </Link>
+        <Link to="/table-colorizer" className="link-cls">
+          Table Colorizer
+        </Link>
       </div>
     </div>
   );
