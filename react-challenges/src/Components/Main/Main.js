@@ -3,7 +3,7 @@ import "./Main.css";
 import { Link } from "react-router-dom";
 function Main() {
   return (
-    <div className="container">
+    <div className="container-cnt">
       <div className="card">
         <Link to="/star-rating" className="link-cls">
           Star rating{" "}
@@ -25,6 +25,9 @@ function Main() {
         </Link>
         <Link to="/table-colorizer" className="link-cls">
           Table Colorizer
+        </Link>
+        <Link to="/guess-number" className="link-cls">
+          Guess Number
         </Link>
       </div>
     </div>
