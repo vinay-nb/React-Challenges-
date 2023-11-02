@@ -29,6 +29,9 @@ function Main() {
         <Link to="/guess-number" className="link-cls">
           Guess Number
         </Link>
+        <Link to="/pagination" className="link-cls">
+          Pagination
+        </Link>
       </div>
     </div>
   );
