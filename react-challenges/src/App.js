@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import TableColorizer from "./Components/TableColorizer/TableColorizer";
 import GuessNumber from "./Components/GuessNumber/GuessNumber";
 import Pagination from "./Components/Pagination/Pagination";
+import Stack from "./Components/Stack/Stack";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/table-colorizer" element={<TableColorizer />} />
         <Route path="/guess-number" element={<GuessNumber />} />
         <Route path="/pagination" element={<Pagination />} />
+        <Route path="/stack" element={<Stack />} />
       </Routes>
     </div>
   );

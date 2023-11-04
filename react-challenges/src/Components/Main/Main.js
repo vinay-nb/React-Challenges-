@@ -32,6 +32,9 @@ function Main() {
         <Link to="/pagination" className="link-cls">
           Pagination
         </Link>
+        <Link to="/stack" className="link-cls">
+          Stack
+        </Link>
       </div>
     </div>
   );
