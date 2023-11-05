@@ -11,6 +11,7 @@ import TableColorizer from "./Components/TableColorizer/TableColorizer";
 import GuessNumber from "./Components/GuessNumber/GuessNumber";
 import Pagination from "./Components/Pagination/Pagination";
 import Stack from "./Components/Stack/Stack";
+import WordCount from "./Components/WordCount/WordCount";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/guess-number" element={<GuessNumber />} />
         <Route path="/pagination" element={<Pagination />} />
         <Route path="/stack" element={<Stack />} />
+        <Route path="/word-count" element={<WordCount />} />
       </Routes>
     </div>
   );

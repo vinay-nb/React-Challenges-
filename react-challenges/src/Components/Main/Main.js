@@ -35,6 +35,9 @@ function Main() {
         <Link to="/stack" className="link-cls">
           Stack
         </Link>
+        <Link to="/word-count" className="link-cls">
+          Word Count
+        </Link>
       </div>
     </div>
   );
