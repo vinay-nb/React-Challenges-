@@ -12,6 +12,7 @@ import GuessNumber from "./Components/GuessNumber/GuessNumber";
 import Pagination from "./Components/Pagination/Pagination";
 import Stack from "./Components/Stack/Stack";
 import WordCount from "./Components/WordCount/WordCount";
+import TemparatureConverter from "./Components/TemparatureConverter/TemparatureConverter";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/pagination" element={<Pagination />} />
         <Route path="/stack" element={<Stack />} />
         <Route path="/word-count" element={<WordCount />} />
+        <Route path="/convert-temparature" element={<TemparatureConverter />} />
       </Routes>
     </div>
   );

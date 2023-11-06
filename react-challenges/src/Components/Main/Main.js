@@ -38,6 +38,9 @@ function Main() {
         <Link to="/word-count" className="link-cls">
           Word Count
         </Link>
+        <Link to="/convert-temparature" className="link-cls">
+          Convert Temparature
+        </Link>
       </div>
     </div>
   );
