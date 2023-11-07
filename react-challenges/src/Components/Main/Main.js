@@ -41,6 +41,9 @@ function Main() {
         <Link to="/convert-temparature" className="link-cls">
           Convert Temparature
         </Link>
+        <Link to="/telephone-formatter" className="link-cls">
+          Telephone Formatter
+        </Link>
       </div>
     </div>
   );
