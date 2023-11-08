@@ -1,0 +1,41 @@
+.str-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    height: 500px;
+    width: 600px;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.output span {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn-wrapper button {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}

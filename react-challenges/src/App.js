@@ -14,6 +14,7 @@ import Stack from "./Components/Stack/Stack";
 import WordCount from "./Components/WordCount/WordCount";
 import TemparatureConverter from "./Components/TemparatureConverter/TemparatureConverter";
 import TelephoneFormatter from "./Components/TelephoneFormatter/TelephoneFormatter";
+import StringTransformers from "./Components/StringTransformers/StringTransformers";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/word-count" element={<WordCount />} />
         <Route path="/convert-temparature" element={<TemparatureConverter />} />
         <Route path="/telephone-formatter" element={<TelephoneFormatter />} />
+        <Route path="/string-transformers" element={<StringTransformers />} />
       </Routes>
     </div>
   );

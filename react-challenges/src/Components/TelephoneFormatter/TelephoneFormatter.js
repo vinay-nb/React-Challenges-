@@ -5,7 +5,7 @@ function TelephoneFormatter() {
   const [inputNumber, setInputNumber] = useState("");
 
   const getStringWithNumbersOnly = (str) =>
-    [...str].filter((v) => Number.isInteger(+v) && v !== "").join("");
+    [...str].filter((v) => Number.isInteger(+v) && v !== " ").join("");
 
   const handleFormat = (e) => {
     const numStr = getStringWithNumbersOnly(e.target.value);

@@ -44,6 +44,9 @@ function Main() {
         <Link to="/telephone-formatter" className="link-cls">
           Telephone Formatter
         </Link>
+        <Link to="/string-transformers" className="link-cls">
+          String Transformers
+        </Link>
       </div>
     </div>
   );
