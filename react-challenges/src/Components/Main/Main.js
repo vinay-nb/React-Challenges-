@@ -47,6 +47,9 @@ function Main() {
         <Link to="/string-transformers" className="link-cls">
           String Transformers
         </Link>
+        <Link to="/tictaktoe" className="link-cls">
+          Tic tac toe
+        </Link>
       </div>
     </div>
   );
