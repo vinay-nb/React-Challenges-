@@ -16,6 +16,7 @@ import TemparatureConverter from "./Components/TemparatureConverter/TemparatureC
 import TelephoneFormatter from "./Components/TelephoneFormatter/TelephoneFormatter";
 import StringTransformers from "./Components/StringTransformers/StringTransformers";
 import Tictaktoe from "./Components/Tictaktoe/Tictaktoe";
+import ExpensesTracker from "./Components/ExpensesTracker/ExpensesTracker";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/telephone-formatter" element={<TelephoneFormatter />} />
         <Route path="/string-transformers" element={<StringTransformers />} />
         <Route path="/tictaktoe" element={<Tictaktoe />} />
+        <Route path="/expenses-tracker" element={<ExpensesTracker />} />
       </Routes>
     </div>
   );

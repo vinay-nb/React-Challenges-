@@ -50,6 +50,9 @@ function Main() {
         <Link to="/tictaktoe" className="link-cls">
           Tic tac toe
         </Link>
+        <Link to="/expenses-tracker" className="link-cls">
+          Expenses Tracker
+        </Link>
       </div>
     </div>
   );

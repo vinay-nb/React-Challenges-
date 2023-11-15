@@ -1,0 +1,106 @@
+.mainContainer-list {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      color: #333;
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+  
+    li:last-child {
+      border-bottom: none;
+    }
+  
+    .btnRed {
+      padding: 5px 10px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #ff4136; /* Red color for delete */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+  
+    .btnRed:hover {
+      background-color: #ff3013;
+    }
+  
+    .btnRed:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+
+.form-expenses {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* For spacing between elements */
+  
+    input
+    select
+    button {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.2s;
+      color: #fff;
+    }
+  
+    input:focus,
+    select:focus {
+      border-color: #007bff; /* Change color when input/select is focused */
+      outline: none; /* Remove default outline */
+    }
+  
+    button {
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  
+    select {
+      appearance: none; /* Remove default appearance for a cleaner look */
+      background-image: url('data:image/svg+xml;utf8,<svg fill="gray" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 10px center; /* Position custom dropdown icon */
+      padding-right: 30px; /* Space for custom dropdown icon */
+    }
+  }
