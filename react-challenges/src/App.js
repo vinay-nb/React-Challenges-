@@ -17,6 +17,7 @@ import TelephoneFormatter from "./Components/TelephoneFormatter/TelephoneFormatt
 import StringTransformers from "./Components/StringTransformers/StringTransformers";
 import Tictaktoe from "./Components/Tictaktoe/Tictaktoe";
 import ExpensesTracker from "./Components/ExpensesTracker/ExpensesTracker";
+import TrafficLights from "./Components/TrafficLights/TrafficLights";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/string-transformers" element={<StringTransformers />} />
         <Route path="/tictaktoe" element={<Tictaktoe />} />
         <Route path="/expenses-tracker" element={<ExpensesTracker />} />
+        <Route path="/traffic-lights" element={<TrafficLights />} />
       </Routes>
     </div>
   );

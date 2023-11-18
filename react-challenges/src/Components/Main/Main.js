@@ -53,6 +53,9 @@ function Main() {
         <Link to="/expenses-tracker" className="link-cls">
           Expenses Tracker
         </Link>
+        <Link to="/traffic-lights" className="link-cls">
+          Traffic Lights
+        </Link>
       </div>
     </div>
   );
