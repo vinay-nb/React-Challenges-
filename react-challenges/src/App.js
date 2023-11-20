@@ -41,6 +41,7 @@ function App() {
         <Route path="/tictaktoe" element={<Tictaktoe />} />
         <Route path="/expenses-tracker" element={<ExpensesTracker />} />
         <Route path="/traffic-lights" element={<TrafficLights />} />
+        <Route path="/email-templates" element={<TrafficLights />} />
       </Routes>
     </div>
   );

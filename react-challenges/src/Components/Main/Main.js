@@ -56,6 +56,9 @@ function Main() {
         <Link to="/traffic-lights" className="link-cls">
           Traffic Lights
         </Link>
+        <Link to="/email-templates" className="link-cls">
+          Email Templates
+        </Link>
       </div>
     </div>
   );
