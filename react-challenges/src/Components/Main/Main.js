@@ -56,8 +56,8 @@ function Main() {
         <Link to="/traffic-lights" className="link-cls">
           Traffic Lights
         </Link>
-        <Link to="/email-templates" className="link-cls">
-          Email Templates
+        <Link to="/modal-popup" className="link-cls">
+          Modal Popup
         </Link>
       </div>
     </div>

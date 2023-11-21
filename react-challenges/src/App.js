@@ -18,6 +18,7 @@ import StringTransformers from "./Components/StringTransformers/StringTransforme
 import Tictaktoe from "./Components/Tictaktoe/Tictaktoe";
 import ExpensesTracker from "./Components/ExpensesTracker/ExpensesTracker";
 import TrafficLights from "./Components/TrafficLights/TrafficLights";
+import ModalPopup from "./Components/ModalPopup/ModalPopup";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
         <Route path="/tictaktoe" element={<Tictaktoe />} />
         <Route path="/expenses-tracker" element={<ExpensesTracker />} />
         <Route path="/traffic-lights" element={<TrafficLights />} />
-        <Route path="/email-templates" element={<TrafficLights />} />
+        <Route path="/modal-popup" element={<ModalPopup />} />
       </Routes>
     </div>
   );

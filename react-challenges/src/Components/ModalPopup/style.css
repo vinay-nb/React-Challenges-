@@ -1,0 +1,45 @@
+.btn-modal {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.modalWrapper {
+    background-color: #fff;
+    max-width: 28rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.modalwrapper p {
+    font-size: 14px;
+}
+
+.close-btn {
+    background: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+@media only screen and (width >= 640px) {
+    .modalWrapper {
+      padding: 2rem;
+    }
+  }
+  
+  
