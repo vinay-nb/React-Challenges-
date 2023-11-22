@@ -59,6 +59,9 @@ function Main() {
         <Link to="/modal-popup" className="link-cls">
           Modal Popup
         </Link>
+        <Link to="/password-strength" className="link-cls">
+          Password Strength
+        </Link>
       </div>
     </div>
   );
