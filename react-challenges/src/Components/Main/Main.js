@@ -62,6 +62,9 @@ function Main() {
         <Link to="/password-strength" className="link-cls">
           Password Strength
         </Link>
+        <Link to="/column-table" className="link-cls">
+          Column Table
+        </Link>
       </div>
     </div>
   );

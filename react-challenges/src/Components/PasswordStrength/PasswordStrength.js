@@ -10,19 +10,21 @@ function PasswordStrength() {
   const [passwordStrengthStat, setPasswordStrengthStat] = useState("");
 
   const setPasswordStat = () => {
-    if (uppercase) {
+    if (uppercase || lowercase || symbol || hasNumber) {
       setPasswordStrengthStat("weak");
     }
-    if (uppercase && lowercase) {
+    if (
+      (uppercase && (lowercase || hasNumber || symbol)) ||
+      (lowercase && (lowercase || hasNumber || symbol))
+    ) {
       setPasswordStrengthStat("medium");
     }
-    if (uppercase && lowercase && hasNumber) {
+    if (lowercase && uppercase && hasNumber) {
       setPasswordStrengthStat("strong");
     }
     if (uppercase && lowercase && symbol && hasNumber) {
       setPasswordStrengthStat("super strong");
     }
-    console.log(passwordStrengthStat);
   };
 
   const handlePassword = (e) => {

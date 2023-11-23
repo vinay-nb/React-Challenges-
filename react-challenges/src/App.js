@@ -20,6 +20,7 @@ import ExpensesTracker from "./Components/ExpensesTracker/ExpensesTracker";
 import TrafficLights from "./Components/TrafficLights/TrafficLights";
 import ModalPopup from "./Components/ModalPopup/ModalPopup";
 import PasswordStrength from "./Components/PasswordStrength/PasswordStrength";
+import ColumnTable from "./Components/ColumnTable/ColumnTable";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/traffic-lights" element={<TrafficLights />} />
         <Route path="/modal-popup" element={<ModalPopup />} />
         <Route path="/password-strength" element={<PasswordStrength />} />
+        <Route path="/column-table" element={<ColumnTable />} />
       </Routes>
     </div>
   );
