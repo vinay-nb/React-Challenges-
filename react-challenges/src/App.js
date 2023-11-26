@@ -21,6 +21,7 @@ import TrafficLights from "./Components/TrafficLights/TrafficLights";
 import ModalPopup from "./Components/ModalPopup/ModalPopup";
 import PasswordStrength from "./Components/PasswordStrength/PasswordStrength";
 import ColumnTable from "./Components/ColumnTable/ColumnTable";
+import TodoList from "./Components/TodoList/TodoList";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Route path="/modal-popup" element={<ModalPopup />} />
         <Route path="/password-strength" element={<PasswordStrength />} />
         <Route path="/column-table" element={<ColumnTable />} />
+        <Route path="/todo-list" element={<TodoList />} />
       </Routes>
     </div>
   );

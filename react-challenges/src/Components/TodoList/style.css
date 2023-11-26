@@ -1,0 +1,39 @@
+.todo-container {
+    margin-left: 400px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.todo-container input {
+    border: none;
+    border-radius: 5px;
+    height: 18px;
+}
+
+.todobtn-container  {
+    margin-left: 100px;
+}
+
+.todo-container button {
+    padding: 10px;
+    margin: 15px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+}
+
+.status-holder {
+    margin-left: 80px;
+    color: rgb(138, 137, 137);
+}
+
+.completed {
+    font-style: italic;
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.input-todo {
+    color: #fff;
+}

@@ -65,6 +65,9 @@ function Main() {
         <Link to="/column-table" className="link-cls">
           Column Table
         </Link>
+        <Link to="/todo-list" className="link-cls">
+          Todo List
+        </Link>
       </div>
     </div>
   );
