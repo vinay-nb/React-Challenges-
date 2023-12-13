@@ -22,6 +22,7 @@ import ModalPopup from "./Components/ModalPopup/ModalPopup";
 import PasswordStrength from "./Components/PasswordStrength/PasswordStrength";
 import ColumnTable from "./Components/ColumnTable/ColumnTable";
 import TodoList from "./Components/TodoList/TodoList";
+import InfiniteScroll from "./Components/InfiniteScrolling/InfiniteScroll";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path="/password-strength" element={<PasswordStrength />} />
         <Route path="/column-table" element={<ColumnTable />} />
         <Route path="/todo-list" element={<TodoList />} />
+        <Route path="/infinite-scroll" element={<InfiniteScroll />} />
       </Routes>
     </div>
   );
