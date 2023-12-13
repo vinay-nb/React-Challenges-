@@ -68,6 +68,9 @@ function Main() {
         <Link to="/todo-list" className="link-cls">
           Todo List
         </Link>
+        <Link to="/infinite-scroll" className="link-cls">
+          Infinite Scroll
+        </Link>
       </div>
     </div>
   );
