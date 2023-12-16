@@ -71,8 +71,8 @@ function Main() {
         <Link to="/infinite-scroll" className="link-cls">
           Infinite Scroll
         </Link>
-        <Link to="/quiz-app" className="link-cls">
-          Quiz App
+        <Link to="/emoji-picker" className="link-cls">
+          Emoji Picker
         </Link>
       </div>
     </div>
