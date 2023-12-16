@@ -71,6 +71,9 @@ function Main() {
         <Link to="/infinite-scroll" className="link-cls">
           Infinite Scroll
         </Link>
+        <Link to="/emoji-picker" className="link-cls">
+          Emoji Picker
+        </Link>
       </div>
     </div>
   );
