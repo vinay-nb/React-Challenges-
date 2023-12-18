@@ -74,6 +74,9 @@ function Main() {
         <Link to="/emoji-picker" className="link-cls">
           Emoji Picker
         </Link>
+        <Link to="/stop-watch" className="link-cls">
+          Stop Watch
+        </Link>
       </div>
     </div>
   );
