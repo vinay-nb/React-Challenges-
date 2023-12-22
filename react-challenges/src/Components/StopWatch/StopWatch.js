@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useRef, useState } from "react";
-import "./style.css";
 
 function StopWatch() {
   let animationFrameRef = useRef(0);
