@@ -1,0 +1,43 @@
+.progress-container {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-progress {
+  margin: 60px 0px;
+  position: relative;
+  width: 15rem;
+  height: 3rem;
+  overflow: hidden;
+  background-color: rgb(0 0 255 / 30%);
+  border-radius: 50px;
+}
+
+.progress-runner {
+  position: absolute;
+  width: 15rem;
+  height: 5rem;
+  background-color: rgb(0 0 255 / 50%);
+  transition: transform 10ms ease-in-out;
+}
+
+.btn-control {
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn-control:hover {
+  font-size: medium;
+  cursor: pointer;
+}
+
+.slider-range,
+.speed {
+  color: #fff;
+}
