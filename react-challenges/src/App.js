@@ -24,6 +24,8 @@ import ColumnTable from "./Components/ColumnTable/ColumnTable";
 import TodoList from "./Components/TodoList/TodoList";
 import InfiniteScroll from "./Components/InfiniteScrolling/InfiniteScroll";
 import EmojiPicker from "./Components/EmojiPicker/EmojiPicker";
+import StopWatch from "./Components/StopWatch/StopWatch";
+import ProgressBar from "./Components/ProgressBar/ProgressBar";
 
 function App() {
   return (
@@ -53,6 +55,8 @@ function App() {
         <Route path="/todo-list" element={<TodoList />} />
         <Route path="/infinite-scroll" element={<InfiniteScroll />} />
         <Route path="/emoji-picker" element={<EmojiPicker />} />
+        <Route path="/stop-watch" element={<StopWatch />} />
+        <Route path="/progress-bar" element={<ProgressBar />} />
       </Routes>
     </div>
   );
