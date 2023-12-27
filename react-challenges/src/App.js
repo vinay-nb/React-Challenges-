@@ -26,6 +26,7 @@ import InfiniteScroll from "./Components/InfiniteScrolling/InfiniteScroll";
 import EmojiPicker from "./Components/EmojiPicker/EmojiPicker";
 import StopWatch from "./Components/StopWatch/StopWatch";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import MainApp from "./Components/NestedDropdown/MainApp";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path="/emoji-picker" element={<EmojiPicker />} />
         <Route path="/stop-watch" element={<StopWatch />} />
         <Route path="/progress-bar" element={<ProgressBar />} />
+        <Route path="/nested-dropdown" element={<MainApp />} />
       </Routes>
     </div>
   );
