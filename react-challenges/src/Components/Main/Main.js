@@ -83,6 +83,9 @@ function Main() {
         <Link to="/nested-dropdown" className="link-cls">
           Nested Dropdown
         </Link>
+        <Link to="/otp" className="link-cls">
+          Otp
+        </Link>
       </div>
     </div>
   );

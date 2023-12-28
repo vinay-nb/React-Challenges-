@@ -27,6 +27,7 @@ import EmojiPicker from "./Components/EmojiPicker/EmojiPicker";
 import StopWatch from "./Components/StopWatch/StopWatch";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import MainApp from "./Components/NestedDropdown/MainApp";
+import Otp from "./Components/Otp/Otp";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
         <Route path="/stop-watch" element={<StopWatch />} />
         <Route path="/progress-bar" element={<ProgressBar />} />
         <Route path="/nested-dropdown" element={<MainApp />} />
+        <Route path="/otp" element={<Otp />} />
       </Routes>
     </div>
   );

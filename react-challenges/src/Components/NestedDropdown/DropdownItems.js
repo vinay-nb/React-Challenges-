@@ -7,6 +7,7 @@ const DropdownItems = ({ items, depthLevel }) => {
 
   let ref = useRef();
 
+  //   handle outside click
   useEffect(() => {
     const handler = (event) => {
       if (dropdown && ref.current && !ref.current.contains(event.target)) {
