@@ -86,6 +86,9 @@ function Main() {
         <Link to="/otp" className="link-cls">
           Otp
         </Link>
+        <Link to="/file-explorer" className="link-cls">
+          File Explorer
+        </Link>
       </div>
     </div>
   );
