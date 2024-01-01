@@ -29,6 +29,7 @@ import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import MainApp from "./Components/NestedDropdown/MainApp";
 import Otp from "./Components/Otp/Otp";
 import FileExplorer from "./Components/FileExplorer/FileExplorer";
+import AutoComplete from "./Components/AutoComplete/AutoComplete";
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
         <Route path="/nested-dropdown" element={<MainApp />} />
         <Route path="/otp" element={<Otp />} />
         <Route path="/file-explorer" element={<FileExplorer />} />
+        <Route path="/auto-complete" element={<AutoComplete />} />
       </Routes>
     </div>
   );

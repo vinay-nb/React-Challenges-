@@ -75,7 +75,7 @@ const Tree = ({
             )
           )}
 
-          {isNew && (
+          {/* {isNew && (
             <li className="list editList">
               {isFolderRef.current ? "📁" : "📄"}&nbsp;
               <EditableInput
@@ -83,7 +83,7 @@ const Tree = ({
                 validateNode={validateNodeOnNew}
               />
             </li>
-          )}
+          )} */}
         </div>
       )}
     </>

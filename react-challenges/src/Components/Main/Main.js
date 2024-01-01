@@ -89,6 +89,9 @@ function Main() {
         <Link to="/file-explorer" className="link-cls">
           File Explorer
         </Link>
+        <Link to="/auto-complete" className="link-cls">
+          Auto Complete
+        </Link>
       </div>
     </div>
   );
