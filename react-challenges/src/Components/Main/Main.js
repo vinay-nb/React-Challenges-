@@ -92,6 +92,9 @@ function Main() {
         <Link to="/auto-complete" className="link-cls">
           Auto Complete
         </Link>
+        <Link to="/breadcrumbs" className="link-cls">
+          Breadcrumbs
+        </Link>
       </div>
     </div>
   );

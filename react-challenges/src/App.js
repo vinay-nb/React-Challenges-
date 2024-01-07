@@ -30,6 +30,7 @@ import MainApp from "./Components/NestedDropdown/MainApp";
 import Otp from "./Components/Otp/Otp";
 import FileExplorer from "./Components/FileExplorer/FileExplorer";
 import AutoComplete from "./Components/AutoComplete/AutoComplete";
+import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
         <Route path="/otp" element={<Otp />} />
         <Route path="/file-explorer" element={<FileExplorer />} />
         <Route path="/auto-complete" element={<AutoComplete />} />
+        <Route path="/breadcrumbs" element={<Breadcrumbs />} />
       </Routes>
     </div>
   );
