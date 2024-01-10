@@ -95,6 +95,9 @@ function Main() {
         <Link to="/breadcrumbs" className="link-cls">
           Breadcrumbs
         </Link>
+        <Link to="/form-validation" className="link-cls">
+          Form Validation
+        </Link>
       </div>
     </div>
   );
