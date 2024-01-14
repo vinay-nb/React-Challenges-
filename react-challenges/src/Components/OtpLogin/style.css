@@ -1,0 +1,25 @@
+.loginPhone {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.inputPhone {
+  display: block;
+  height: 50px;
+  width: 180px;
+}
+
+.otpInput {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 5px;
+  font-size: 1.2em;
+}
+
+.otpInputContainer {
+  max-width: 100%;
+}

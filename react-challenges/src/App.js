@@ -32,6 +32,7 @@ import FileExplorer from "./Components/FileExplorer/FileExplorer";
 import AutoComplete from "./Components/AutoComplete/AutoComplete";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import FormValidation from "./Components/FormValidation/FormValidation";
+import OtpLogin from "./Components/OtpLogin/OtpLogin";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
         <Route path="/auto-complete" element={<AutoComplete />} />
         <Route path="/breadcrumbs" element={<Breadcrumbs />} />
         <Route path="/form-validation" element={<FormValidation />} />
+        <Route path="/otp-login" element={<OtpLogin />} />
       </Routes>
     </div>
   );

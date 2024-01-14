@@ -98,6 +98,9 @@ function Main() {
         <Link to="/form-validation" className="link-cls">
           Form Validation
         </Link>
+        <Link to="/otp-login" className="link-cls">
+          Otp Login
+        </Link>
       </div>
     </div>
   );
