@@ -21,7 +21,9 @@ const OtpLogin = () => {
     setShowOtpInput(true);
   };
 
-  const onOtpSubmit = (otp) => {};
+  const onOtpSubmit = (otp) => {
+    console.log("Login successful", otp);
+  };
   return (
     <div className="loginPhone">
       {!showOtpInput ? (
