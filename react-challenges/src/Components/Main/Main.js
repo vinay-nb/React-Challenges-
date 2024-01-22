@@ -101,6 +101,9 @@ function Main() {
         <Link to="/otp-login" className="link-cls">
           Otp Login
         </Link>
+        <Link to="/useeffect-polyfill" className="link-cls">
+          useEffect Polyfill
+        </Link>
       </div>
     </div>
   );
