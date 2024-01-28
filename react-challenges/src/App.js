@@ -33,7 +33,7 @@ import AutoComplete from "./Components/AutoComplete/AutoComplete";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import FormValidation from "./Components/FormValidation/FormValidation";
 import OtpLogin from "./Components/OtpLogin/OtpLogin";
-import useEffectPolyfill from "./Components/useEffectPolyfill/useEffectPolyfill";
+import UseEffectPolyfill from "./Components/UseEffectPolyfill/UseEffectPolyfill";
 
 function App() {
   return (
@@ -72,7 +72,7 @@ function App() {
         <Route path="/breadcrumbs" element={<Breadcrumbs />} />
         <Route path="/form-validation" element={<FormValidation />} />
         <Route path="/otp-login" element={<OtpLogin />} />
-        <Route path="/otp-login" element={<useEffectPolyfill />} />
+        <Route path="/useeffect-polyfill" element={<UseEffectPolyfill />} />
       </Routes>
     </div>
   );
