@@ -104,6 +104,9 @@ function Main() {
         <Link to="/useeffect-polyfill" className="link-cls">
           useEffect Polyfill
         </Link>
+        <Link to="/i18-next" className="link-cls">
+          i18 Next
+        </Link>
       </div>
     </div>
   );
