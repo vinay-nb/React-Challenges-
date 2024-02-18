@@ -1,0 +1,20 @@
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+  margin: 50px;
+  background-color: white;
+}
+
+.btn-wrapper li {
+  list-style: none;
+}
+
+.btn-wrapper {
+  background-color: #d1d5db;
+  border: 1px solid #030712;
+  padding: 15px;
+  width: 200px;
+}
