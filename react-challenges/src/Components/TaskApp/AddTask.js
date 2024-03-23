@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./task.css";
 
-const AddTask = ({ handleAddTask }) => {
+const AddTask = ({ onAddTask }) => {
   const [text, setText] = useState();
   return (
     <div>
@@ -15,7 +15,7 @@ const AddTask = ({ handleAddTask }) => {
       <button
         onClick={() => {
           setText("");
-          handleAddTask(text);
+          onAddTask(text);
         }}
       >
         Add

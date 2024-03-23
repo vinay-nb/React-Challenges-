@@ -1,25 +1,21 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const TaskList = ({ tasks, handleChangeTask, handleDeleteTask }) => {
+export default function TaskList({ tasks, onChangeTask, onDeleteTask }) {
   return (
     <ul>
       {tasks.map((task) => (
-        <li key={task.id}>
-          <Tasks
-            task={task}
-            onChange={handleChangeTask}
-            onDelete={handleDeleteTask}
-          />
+        <li key={task.id} style={{ color: "white", listStyle: "none" }}>
+          <Task task={task} onChange={onChangeTask} onDelete={onDeleteTask} />
         </li>
       ))}
     </ul>
   );
-};
+}
 
-function Tasks({ task, onChange, onDelete }) {
-  const [isEditiong, setIsEditing] = useState(false);
+function Task({ task, onChange, onDelete }) {
+  const [isEditing, setIsEditing] = useState(false);
   let taskContent;
-  if (isEditiong) {
+  if (isEditing) {
     taskContent = (
       <>
         <input
@@ -42,7 +38,6 @@ function Tasks({ task, onChange, onDelete }) {
       </>
     );
   }
-
   return (
     <label>
       <input
@@ -51,7 +46,7 @@ function Tasks({ task, onChange, onDelete }) {
         onChange={(e) => {
           onChange({
             ...task,
-            text: e.target.checked,
+            done: e.target.checked,
           });
         }}
       />
@@ -60,5 +55,3 @@ function Tasks({ task, onChange, onDelete }) {
     </label>
   );
 }
-
-export default TaskList;
