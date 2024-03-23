@@ -110,6 +110,9 @@ function Main() {
         <Link to="/shuffle-list" className="link-cls">
           shuffle list
         </Link>
+        <Link to="/task-app" className="link-cls">
+          Task App
+        </Link>
       </div>
     </div>
   );
