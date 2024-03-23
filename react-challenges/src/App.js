@@ -35,6 +35,7 @@ import FormValidation from "./Components/FormValidation/FormValidation";
 import OtpLogin from "./Components/OtpLogin/OtpLogin";
 import UseEffectPolyfill from "./Components/UseEffectPolyfill/UseEffectPolyfill";
 import ShuffleList from "./Components/ShuffleList/ShuffleList";
+import Task from "./Components/TaskApp/Task";
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
         <Route path="/otp-login" element={<OtpLogin />} />
         <Route path="/useeffect-polyfill" element={<UseEffectPolyfill />} />
         <Route path="/shuffle-list" element={<ShuffleList />} />
+        <Route path="/task-app" element={<Task />} />
       </Routes>
     </div>
   );
