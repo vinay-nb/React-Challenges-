@@ -36,6 +36,7 @@ import OtpLogin from "./Components/OtpLogin/OtpLogin";
 import UseEffectPolyfill from "./Components/UseEffectPolyfill/UseEffectPolyfill";
 import ShuffleList from "./Components/ShuffleList/ShuffleList";
 import Task from "./Components/TaskApp/Task";
+import SelectableGrid from "./Components/SelectableGrid/SelectableGrid";
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
         <Route path="/useeffect-polyfill" element={<UseEffectPolyfill />} />
         <Route path="/shuffle-list" element={<ShuffleList />} />
         <Route path="/task-app" element={<Task />} />
+        <Route path="/selectable-grid" element={<SelectableGrid />} />
       </Routes>
     </div>
   );
