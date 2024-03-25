@@ -116,6 +116,9 @@ function Main() {
         <Link to="/selectable-grid" className="link-cls">
           Selectable Grid
         </Link>
+        <Link to="/button-game" className="link-cls">
+          Button Game
+        </Link>
       </div>
     </div>
   );

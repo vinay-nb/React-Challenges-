@@ -1,0 +1,28 @@
+.screen {
+  border: 1px solid white;
+  border-radius: 8px;
+  transition: all 0.5s linear;
+  width: 80vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.screen .ball {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #646cff;
+  position: absolute;
+  transition: all 0.5s linear;
+}
+
+.target {
+  height: 150px;
+  width: 150px;
+  border: dashed blue;
+  border-radius: 8px;
+  margin-top: 40px;
+}
