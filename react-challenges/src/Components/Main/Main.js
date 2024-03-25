@@ -113,6 +113,9 @@ function Main() {
         <Link to="/task-app" className="link-cls">
           Task App
         </Link>
+        <Link to="/selectable-grid" className="link-cls">
+          Selectable Grid
+        </Link>
       </div>
     </div>
   );
