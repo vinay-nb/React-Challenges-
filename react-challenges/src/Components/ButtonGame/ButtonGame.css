@@ -26,3 +26,20 @@
   border-radius: 8px;
   margin-top: 40px;
 }
+
+.lower-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pressed {
+  transform: scale(0.8);
+  background-color: yellow;
+  border: solid yellow;
+}
